@@ -1,0 +1,8 @@
+<EasyView Name="TicketListView"
+Description="trac.ticket"
+Class="EasyView"
+TemplateEngine="Smarty"
+TemplateFile="view.tpl">
+<FormReferences>
+</FormReferences>
+</EasyView>

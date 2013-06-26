@@ -1,0 +1,5 @@
+Copyright: AksiIDE development team
+
+Authors:
+    * Luri Darmawan
+    * Agung Wicaksana
