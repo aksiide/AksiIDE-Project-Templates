@@ -1,0 +1,3 @@
+<?xml version="1.0" standalone="no"?>
+<PluginService Name="SampleLibService" Package="sample.lib" Class="SampleLibService" >
+</PluginService>
