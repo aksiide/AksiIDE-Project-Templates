@@ -5,8 +5,9 @@
 </div>
 
 
-<a href="x" class="tooltips" title="ini title" alt="ini alt">oueee</a>
-<br>cek bahasa: {gt text='halow'}
+<a href="x" class="tooltips" title="ini title" alt="ini alt">Tooltip Sample</a>
+<br>
+<h2>{gt text='Welcome'}</h2>
 
 {form cssClass="z-form"}
 {formvalidationsummary}

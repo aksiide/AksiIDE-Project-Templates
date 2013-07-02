@@ -3,4 +3,6 @@ description=Project Module for Drupal
 dependency=drupal
 version=0.0.1
 author=AksiIDE.Com
+nospacemodulename=1
+createmoduledir=1
 

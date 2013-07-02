@@ -1,8 +1,5 @@
 {insert name='getstatusmsg'}
-Hellowwwww word %namaapp%
-<br />versi: %versi%
-<br />versi.minor: %versi.minor%
-<br />versi.year %versi.year%
+<h1>Landing Page for %project.name%</h1>
 <br />create date: %date%
 
 
