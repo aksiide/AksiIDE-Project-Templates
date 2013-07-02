@@ -1,0 +1,94 @@
+<?php
+// $Id$
+%header%
+
+// based on Brandon Dixon's <brandon.s.dixon@gmail.com> Skeleton Module Generator
+/**
+* Your module will use the subject as the main title and load the content from your function
+*/
+function %module.name%_block($op='list', $delta=0, $edit=array())
+{
+	switch ($op) {
+	case 'list':
+	$blocks[0]['info'] = t('%module.name%');
+	return $blocks;
+	case 'view':
+	$blocks['subject'] = t('%module.name%');
+	$blocks['content'] = %module.name%_block_content();
+	return $blocks;
+	}
+}
+
+/**
+* Your module should generate it's content here. This will be displayed within your module
+*/
+function %module.name%_block_content()
+{
+	$content .= "Replace with your logic";
+	return $content;
+}
+
+/**
+* This will allow you to restrict certain actions of the module to certain roles
+*/
+function %module.name%_perm()
+{
+	return array('access %module.name%','administer %module.name%');
+}
+
+/**
+* This will provide users with more information about your module
+*/
+function %module.name%_hook_help($path, $arg)
+{
+	switch($path) {
+	case 'admin/help#%module.name%':
+		$output = t('Help Content Goes Here');
+	return $output;
+	}
+}
+
+/**
+* This will create an admin menu
+*/
+function %module.name%_menu()
+{
+	$items = array ();
+	$items['admin/settings/%module.name%'] = array (
+		'title' => t('%project.name%'),
+		'description' => t('Replace with admin setting description'),
+		'page callback' => 'drupal_get_form',
+		'page arguments' => array('%module.name%_settings'),
+		'access arguments' => array('administer %module.name%'),
+		'type' => MENU_NORMAL_ITEM,
+	);
+	return $items;
+}
+
+/**
+* This will construct the form used within the admin menu
+*/
+function %module.name%_settings()
+{
+	$form['%module.name%_general_settings'] = array(
+		'#title' => t('General Settings'),
+		'#type' => "fieldset",
+		'#collapsible' => TRUE,
+	);
+	$form['%module.name%_general_settings']['text'] = array(
+		'#title' => t('Text'),
+		'#type' => "fieldset",
+		'#collapsible' => TRUE,
+		'#collapsed' => FALSE,
+	);
+	$form['%module.name%_general_settings']['text']['sample'] = array(
+		'#title' => t('Sample'),
+		'#type' => "textfield",
+		'#size' => 45,
+		'#maxlength' => 50,
+		'#required' => FALSE,
+		'#description' => t('Sample textfield and settings menu'),
+		'#default_value' => variable_get('sample','Sample Text'),
+	);
+	return system_settings_form($form);
+}
