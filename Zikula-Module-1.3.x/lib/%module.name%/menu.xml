@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<menu>
+	<%module.name%>
+		<Dashboard title="Dashboard" url="%module.id%/" focus="edtSatu" xcallback="oye" />
+		<Workorder title="Buat WorkOrder" url="%module.id%/add/type/workorder/" focus="edtNopol" xcallback="oye" />
+		<InvoiceManual title="Buat Invoice Manual" url="%module.id%/create/type/invoice/" focus="edtKode" callback="winItemReload" />
+		<PelangganBaru title="Pelanggan Baru" url="%module.id%/edit/type/pelanggan/" focus="edtNama" xcallback="oye" />
+		<plg type="separator" title=""/>
+		<Pencarian title="Pencarian" url="%module.id%/search/type/kendaraan" focus="edtNopol" xcallback="oye" />
+	</%module.name%>
+</menu>
