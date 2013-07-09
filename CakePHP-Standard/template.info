@@ -1,0 +1,8 @@
+[template]
+description=Plugin CakePHP - Standard
+dependency=cakephp
+version=0.0.1
+author=AksiIDE.Com
+nospacemodulename=1
+createmoduledir=1
+
