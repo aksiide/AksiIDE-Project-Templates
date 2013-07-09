@@ -1,0 +1,32 @@
+{
+    "name": "cakephp/%module.id%",
+    "description": "%project.name%",
+    "type": "cakephp-plugin",
+    "keywords": ["cakephp", "app", "%module.id%"],
+    "homepage": "https://aksiide.com",
+    "license": "",
+    "authors": [
+        {
+            "name": "Luri @ AksiIDE",
+            "homepage": "http://aksiide.com",
+            "role": "Author"
+        },
+        {
+            "name": "CakePHP Community",
+            "homepage": "https://github.com/cakephp/"
+        }
+    ],
+    "support": {
+        "issues": "http://aksiide.com/issues",
+        "forum": "http://aksiide.com/ask"
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "composer/installers": "*"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.2.x-dev"
+        }
+    }
+}
