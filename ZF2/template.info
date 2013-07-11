@@ -1,0 +1,6 @@
+[template]
+description=ZF2 Skeleton Application
+dependency=ZF2
+version=2.2.1
+author=http://framework.zend.com/zf2
+
