@@ -1,0 +1,4 @@
+<?xml version="1.0" standalone="no"?>
+<Selection>
+   <Provider Value="example.lib.ContactProvider.Google.ContactService" text="Example Lib"/>
+</Selection>

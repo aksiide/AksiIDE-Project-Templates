@@ -1,0 +1,8 @@
+[template]
+description=Wordpress Plugin: with shortcode, action, filter, jquery support and admin menu
+dependency=Wordpress
+version=0.0.1
+author=AksiIDE.Com
+nospacemodulename=1
+createmoduledir=1
+

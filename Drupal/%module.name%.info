@@ -1,0 +1,7 @@
+;$Id$
+name = %module.name%
+description = %project.name% by AksiIDE
+package = Core
+core = 7.x
+version = "7.22"
+datestamp = "1365027012"
