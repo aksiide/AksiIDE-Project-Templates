@@ -1,2 +1,0 @@
-contoh block:
-{$sContent}

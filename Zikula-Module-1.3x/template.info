@@ -1,8 +1,0 @@
-[template]
-description=Project Module for Zikula 1.3.x
-dependency=zikula
-version=0.0.1
-author=AksiIDE.Com
-nospacemodulename=1
-createmoduledir=1
-
