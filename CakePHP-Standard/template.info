@@ -1,6 +1,6 @@
 [template]
 description=Plugin CakePHP - Standard
-dependency=cakephp
+framework=cakephp
 version=0.0.1
 author=AksiIDE.Com
 nospacemodulename=1

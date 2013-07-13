@@ -1,6 +1,6 @@
 [template]
 description=Project Hello Word for Yii Framework
-dependency=yii
+framework=yii
 version=0.0.1
 author=AksiIDE.Com
 

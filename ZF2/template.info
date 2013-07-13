@@ -1,6 +1,9 @@
 [template]
 description=ZF2 Skeleton Application
-dependency=ZF2
+framework=ZF2
 version=2.2.1
 author=http://framework.zend.com/zf2
+nospacemodulename=1
+createmoduledir=1
+afterexec=console
 
