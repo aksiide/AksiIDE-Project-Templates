@@ -1,6 +1,6 @@
 [template]
 description=Project HTML for Mobile Application \n( jqMobile )
-dependency=jquery
+framework=jquery
 version=0.0.1
 author=AksiIDE.Com
 
