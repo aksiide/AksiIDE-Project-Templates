@@ -1,0 +1,10 @@
+[template]
+description=Symfony|After installed, run "composer.bat update" from console
+framework=Symfony
+requirement=composer
+version=0.0.1
+author=Muhammad Surya Ikhsanudin, http://www.facebook.com/AdenKejawen
+nospacemodulename=1
+createmoduledir=1
+afterexec=console
+
