@@ -10,7 +10,7 @@ class %module.name%_Version extends Zikula_AbstractVersion {
 	*/
 	public function getMetaData() {
   	$meta = array();
-		$meta["displayname"]    = $this->__( "%module.name%");
+		$meta["displayname"]    = $this->__( "%project.name%");
 		$meta["description"]    = $this->__( "%description%");
 
 		//! module name that appears in URL
@@ -22,6 +22,24 @@ class %module.name%_Version extends Zikula_AbstractVersion {
     	"%module.name%::"      => "::",
 	    "%module.name%:User:"  => "UserName::"
     );
+
+		// Example Module depedencies
+    /*
+		$meta['dependencies'] = array(
+			array(
+				'modname' => 'MyAksi',
+				'minversion' => '0.12.0',
+				'maxversion' => '',
+				'status' => ModUtil::DEPENDENCY_RECOMMENDED,
+			),
+			array(
+				'modname' => 'CustomerManagement',
+				'minversion' => '0.0.1',
+				'maxversion' => '',
+				'status' => ModUtil::DEPENDENCY_RECOMMENDED,
+			),
+		);
+    */
 		return $meta;
 	}
 }
