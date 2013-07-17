@@ -100,19 +100,19 @@ class %module.name%_Controller_User extends Zikula_AbstractController {
 	public function view( $args) {
 		global $Aksi;
 		if (!SecurityUtil::checkPermission( '%module.name%::', '::', ACCESS_READ)) {
-				return LogUtil::registerPermissionError(ModUtil::url( '%module.name%', 'user', 'lihat'));
+				return LogUtil::registerPermissionError(ModUtil::url( '%module.name%', 'user', 'view'));
 		}
 		$now = DateUtil::getDatetime();
-		$psUserName = UserUtil::getVar( 'uname');
+		$lsUserName = UserUtil::getVar( 'uname');
 		$liUID = UserUtil::getVar( 'uid');
 
     $lsObject = FormUtil::getPassedValue( 'id', '', 'GETPOST', FILTER_SANITIZE_STRING);
-    $lsVariabel = print_r( $_REQUEST, true);
+    $lsVariable = print_r( $_REQUEST, true);
 
 		$this->view->assign( 'date', $now);
-		$this->view->assign( 'uname', $psUserName);
+		$this->view->assign( 'uname', $lsUserName);
 		$this->view->assign( 'uid', $liUID);
-		$this->view->assign( 'variabel', $lsVariabel);
+		$this->view->assign( 'variable', $lsVariable);
 		return $this->view->fetch( "user/lihat.tpl");
 	}
 	

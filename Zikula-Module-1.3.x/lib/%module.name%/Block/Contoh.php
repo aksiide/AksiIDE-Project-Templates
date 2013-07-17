@@ -35,13 +35,9 @@ class %module.name%_Block_Contoh extends Zikula_Controller_AbstractBlock {
 		$vars['checkinmenu'] = true;
 	}
 
-		$sMobile = "";
 		$numitems = 15;
 		$detect = new Mobile_Detect();
-		if ($detect->isMobile()) {
-			$sMobile = "-mobile";
-			$numitems = 5;
-		}
+    $lsMobile = $detect->isMobile() ? "-mobile" : '';
 
 		// decode the query string (works with and without shorturls)
 		System::queryStringDecode();
@@ -54,7 +50,7 @@ class %module.name%_Block_Contoh extends Zikula_Controller_AbstractBlock {
 
 
 		$this->view->assign( 'sContent', $lsContent);
-		$blockinfo[ 'content'] = $this->view->fetch( "block/contoh$sMobile.tpl");
+		$blockinfo[ 'content'] = $this->view->fetch( "block/contoh$lsMobile.tpl");
 		return BlockUtil::themeBlock($blockinfo);
 	}
 
