@@ -1,3 +1,6 @@
+{pageaddvar name="stylesheet" value="modules/%module.name%/templates/style.css"}
+{include file='include/header.tpl'}
+
 {insert name='getstatusmsg'}
 <h1>Landing Page for %project.name%</h1>
 create date: %date%

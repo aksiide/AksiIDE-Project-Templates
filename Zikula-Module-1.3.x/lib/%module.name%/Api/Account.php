@@ -32,7 +32,7 @@ class %module.name%_Api_Account extends Zikula_AbstractApi
         if (SecurityUtil::checkPermission( '%module.name%::', '::', ACCESS_COMMENT)) {
             $items[] = array('url'     => ModUtil::url('%module.name%', 'user', 'edit'),
                     'module'  => '%module.name%',
-                    'title'   => $this->__('%module.id% Edit'),
+                    'title'   => $this->__('%project.name% Edit'),
                     'icon'    => 'news_add.gif'
             );
         }
@@ -41,7 +41,7 @@ class %module.name%_Api_Account extends Zikula_AbstractApi
         if (SecurityUtil::checkPermission( '%module.name%::', '::', ACCESS_ADMIN)) {
             $items[] = array('url'     => ModUtil::url('%module.name%', 'admin', 'main'),
                     'module'  => '%module.name%',
-                    'title'   => $this->__('%module.id% Admin'),
+                    'title'   => $this->__('%project.name% Administrator'),
                     'icon'    => 'admin.png'
             );
 

@@ -137,14 +137,16 @@ class %module.name%_Installer extends Zikula_AbstractInstaller{
 	 * @return void
 	 */
 	protected function defaultdata()	{
-		$user = new %module.name%_Entity_User();
-		$user->setUser('namauser', 'passwordnya');
-		$this->entityManager->persist($user);
-		$this->entityManager->flush();
+		//$user = new %module.name%_Entity_User();
+		//$user->setUser('namauser', 'passwordnya');
+		//$this->entityManager->persist($user);
+		//$this->entityManager->flush();
 
 		$now = DateUtil::getDatetime();
 		$uname = UserUtil::getVar('uname');
 		$uid = UserUtil::getVar('uid');
+
+
 	}
 }
 
