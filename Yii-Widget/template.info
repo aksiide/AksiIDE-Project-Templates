@@ -1,0 +1,9 @@
+[template]
+description=Yii Widget|please read README.md
+framework=yii
+requirement=
+version=0.0.1
+author=AksiIDE.Com
+nospacemodulename=1
+createmoduledir=1
+
