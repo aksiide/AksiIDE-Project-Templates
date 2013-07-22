@@ -1,4 +1,3 @@
-
 Symfony Standard Edition
 ========================
 
