@@ -1,5 +1,5 @@
 {pageaddvar name="stylesheet" value="modules/%module.name%/templates/style.css"}
-{include file='include/header.tpl'}
+{include file='includes/header.tpl'}
 
 {insert name='getstatusmsg'}
 <h1>Landing Page for %project.name%</h1>
@@ -20,4 +20,6 @@ You can edit this content from file:<br>
 <br />search function "main( $args)",  line 79
 
 </p>
+
+{include file='includes/footer.tpl'}
 

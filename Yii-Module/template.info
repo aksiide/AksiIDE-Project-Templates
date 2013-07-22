@@ -1,0 +1,9 @@
+[template]
+description=Yii Module|Setelah terinstall,|Pastikan telah menambahkan konfigurasi module di 'protected\config\main.php'|kemungkinan di baris ke 29
+framework=yii
+requirement=
+version=0.0.1
+author=AksiIDE.Com
+nospacemodulename=1
+createmoduledir=1
+

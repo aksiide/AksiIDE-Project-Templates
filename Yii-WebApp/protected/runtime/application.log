@@ -1,0 +1,26 @@
+2013/07/18 12:56:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in E:\garapan\workspace.aksiide.com\home\wspace\public_html\ex\yii3\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\garapan\workspace.aksiide.com\home\wspace\public_html\ex\yii3\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 E:\garapan\workspace.aksiide.com\home\wspace\public_html\ex\yii3\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 E:\garapan\workspace.aksiide.com\home\wspace\public_html\ex\yii3\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ex/yii3/testdrive/index.php?r=gii
+---
+2013/07/18 13:02:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in E:\garapan\workspace.aksiide.com\home\wspace\public_html\ex\yii3\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\garapan\workspace.aksiide.com\home\wspace\public_html\ex\yii3\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 E:\garapan\workspace.aksiide.com\home\wspace\public_html\ex\yii3\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 E:\garapan\workspace.aksiide.com\home\wspace\public_html\ex\yii3\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ex/yii3/testdrive/index.php?r=gii
+---
+2013/07/18 13:02:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in E:\garapan\workspace.aksiide.com\home\wspace\public_html\ex\yii3\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\garapan\workspace.aksiide.com\home\wspace\public_html\ex\yii3\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 E:\garapan\workspace.aksiide.com\home\wspace\public_html\ex\yii3\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 E:\garapan\workspace.aksiide.com\home\wspace\public_html\ex\yii3\testdrive\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/ex/yii3/testdrive/index.php?r=gii
+---
+2013/07/18 13:04:58 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test_yii3.tbl_user' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `tbl_user`.
+in E:\garapan\workspace.aksiide.com\home\wspace\public_html\ex\yii3\testdrive\index.php (13)
