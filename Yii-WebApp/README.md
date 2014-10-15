@@ -14,6 +14,6 @@ package  %module.id% - %module.name%
 
 note:
 After installed, 
-goto your http://your-url/your-path/index.php?r=gii|Gii
-maybe: http://%url%/index.php?r=gii|Gii
+goto your http://your-url/your-path/index.php?r=gii
+maybe: %url%/index.php?r=gii
 Password = password

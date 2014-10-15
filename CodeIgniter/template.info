@@ -1,0 +1,7 @@
+[template]
+description=CodeIgniter Wizard|placed in your 'application' directory.
+framework=codeigniter
+version=0.0.1
+author=AksiIDE
+nospacemodulename=1
+createmoduledir=0
