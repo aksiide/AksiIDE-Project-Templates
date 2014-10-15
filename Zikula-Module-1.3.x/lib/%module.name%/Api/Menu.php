@@ -8,7 +8,7 @@ class %module.name%_Api_Menu extends Zikula_AbstractApi {
 
 	public function get($args){
   	global $Aksi;
-  	if ( !$Aksi[ "%module.name%.enable" ])
+  	if ( !$Aksi[ "%module.name%_enable" ])
     	return false;
 
 		$lsFileMenu  = __DIR__ . "/../menu.xml";

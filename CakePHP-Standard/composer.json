@@ -3,12 +3,12 @@
     "description": "%project.name%",
     "type": "cakephp-plugin",
     "keywords": ["cakephp", "app", "%module.id%"],
-    "homepage": "https://aksiide.com",
+    "homepage": "http://www.aksiide.com",
     "license": "",
     "authors": [
         {
             "name": "Luri @ AksiIDE",
-            "homepage": "http://aksiide.com",
+            "homepage": "http://www.aksiide.com",
             "role": "Author"
         },
         {
@@ -17,8 +17,8 @@
         }
     ],
     "support": {
-        "issues": "http://aksiide.com/issues",
-        "forum": "http://aksiide.com/ask"
+        "issues": "http://www.aksiide.com/issues",
+        "forum": "http://www.aksiide.com/ask"
     },
     "require": {
         "php": ">=5.3.0",

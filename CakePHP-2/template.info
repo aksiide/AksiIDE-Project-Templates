@@ -1,0 +1,8 @@
+[template]
+description=Plugin CakePHP - 2.x|fill module-name with plural name, and module-id is model-name|Project-Dir is your existing cakephp/app
+framework=cakephp
+version=0.0.1
+author=Joko Suntoro
+nospacemodulename=1
+createmoduledir=0
+
