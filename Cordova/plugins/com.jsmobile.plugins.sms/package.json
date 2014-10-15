@@ -1,0 +1,18 @@
+{
+    "version": "0.0.1",
+    "name": "com.jsmobile.plugins.sms",
+    "cordova_name": "sms",
+    "description": "A plugin for sending sms messages",
+    "license": "Apache 2.0",
+    "keywords": [
+        "cordova",
+        "plugins",
+        "sms"
+    ],
+    "platforms": [
+        "android",
+        "ios",
+        "wp8"
+    ],
+    "engines": []
+}
