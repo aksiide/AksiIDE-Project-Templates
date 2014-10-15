@@ -1,0 +1,8 @@
+[template]
+description=PHP Port - AksiIDE PlugIn|place this project to directory "app/plugins/php/"
+framework=
+version=0.0.1
+author=Joko Suntoro
+nospacemodulename=1
+createmoduledir=1
+
