@@ -1,10 +1,11 @@
 [template]
 description=Cordova - Hybrid Mobile Application|Target: Android||include plugins:|- Device|- Send SMS|- Camera|- File Transfer|- Geo Location
 framework=Cordova
-requirement=Cordova
+requirement=npm, Cordova
 version=0.0.1
 author=Luri Darmawan
 usemodule=0
 nospacemodulename=1
 createmoduledir=1
+afterexec=open:README.txt
 
