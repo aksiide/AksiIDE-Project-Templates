@@ -6,4 +6,10 @@ Generated date %date%
 package  %module.id% - %module.name%
 
 
+requirement :
+- npm
+- cordova
+- ant
+- android sdk
+
 
