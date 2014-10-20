@@ -7,5 +7,5 @@ author=Luri Darmawan
 usemodule=0
 nospacemodulename=1
 createmoduledir=1
-afterexec=open:README.txt
+afterexec=open:README.md
 
